@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mambobryan.day2.LoginActivity">
+
+    <TextView
+        android:layout_margin="8dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Email address" />
+
+    <EditText
+        android:paddingLeft="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="8dp"
+        android:id="@+id/email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_margin="8dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password" />
+
+    <EditText
+        android:paddingLeft="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="8dp"
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/activity_buttons"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openDisplayActivity"
+        android:text="Activity A Button" />
+</LinearLayout>
